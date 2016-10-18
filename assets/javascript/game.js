@@ -1,3 +1,13 @@
+var characters = {
+	obi: ["Obi Wan Kenobi", "assets/images/obi.jpg", 120, 8],
+	luke: ["Luke Skywaler", "assets/images/luke.jpg", 100, 5],
+	darth: ["Darth Sidious", "assets/images/darth.jpg", 150, 20],
+	maul: ["Darth Maul", "assets/images/maul.jpg", 180, 25]
+};
+
+
+
+
 // if obi is chosen
 $(document).ready(function(){
 	$("#obi").click(function(){
